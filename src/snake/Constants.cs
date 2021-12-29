@@ -1,10 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
 namespace snake {
-    public class Constants {
-
-    }
-
     public struct Direction {
         public int X { get; }
         public int Y { get; }
