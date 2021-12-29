@@ -1,4 +1,4 @@
-name: .NET
+name: Build SNAKE
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     defaults:
       run:
         working-directory: ./src/snake
